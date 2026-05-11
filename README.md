@@ -17,10 +17,23 @@ A complete maintenance and under construction mode plugin for WordPress with ful
 
 ## Installation
 
-1. Upload the plugin files to the `/wp-content/plugins/complete-maintenance-mode` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Go to **Settings > Complete Maintenance Mode** to configure.
-4. Enable maintenance mode from the admin bar or settings page.
+### Option 1: WordPress Admin (Recommended)
+
+1. Download **complete-maintenance-mode.zip** from the [releases page](https://github.com/kim-opensourcer/complete-maintenance-mode/releases/latest)
+2. In WordPress admin, go to **Plugins > Add New > Upload Plugin**
+3. Choose the ZIP file and click **Install Now**
+4. Click **Activate**
+
+### Option 2: Manual Upload
+
+1. Download and extract **complete-maintenance-mode.zip**
+2. Upload the `complete-maintenance-mode` folder to `/wp-content/plugins/`
+3. Activate the plugin through the 'Plugins' screen in WordPress
+
+### Configuration
+
+1. Go to **Settings > Complete Maintenance Mode** to configure.
+2. Enable maintenance mode from the admin bar or settings page.
 
 ## Requirements
 
