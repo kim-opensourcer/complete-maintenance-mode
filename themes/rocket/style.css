@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0c0c1e 0%, #1a1a3e 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+.stars {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><circle cx="10" cy="10" r="1" fill="white" opacity="0.5"/><circle cx="50" cy="80" r="0.5" fill="white"/><circle cx="120" cy="30" r="1" fill="white" opacity="0.3"/><circle cx="200" cy="150" r="0.5" fill="white"/><circle cx="300" cy="80" r="1" fill="white" opacity="0.5"/><circle cx="350" cy="200" r="0.5" fill="white"/><circle cx="80" cy="250" r="1" fill="white" opacity="0.3"/><circle cx="250" cy="300" r="0.5" fill="white"/><circle cx="400" cy="350" r="1" fill="white" opacity="0.5"/></svg>');
+    animation: stars 60s linear infinite;
+}
+@keyframes stars { from { transform: translateY(0); } to { transform: translateY(-400px); } }
+.container { max-width: 800px; width: 100%; text-align: center; position: relative; z-index: 1; }
+.rocket { font-size: 6rem; animation: bounce 2s ease-in-out infinite; }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-30px); } }
+h1.heading { font-size: 3rem; font-weight: 900; margin: 20px 0; color: #00d4ff; text-shadow: 0 0 20px rgba(0, 212, 255, 0.5); }
+p.content { font-size: 1.2rem; line-height: 1.8; color: rgba(255,255,255,0.85); margin-bottom: 40px; }
+.social-icons a { display: inline-block; margin: 0 12px; color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s; }
+.social-icons a:hover { color: #00d4ff; transform: scale(1.2); }
+#linkback { margin-top: 40px; font-size: 0.85rem; color: rgba(255,255,255,0.4); }
+#linkback a { color: rgba(255, 255, 255, 0.5); text-decoration: none; }
+#linkback a:hover { color: #fff; }
+#login-button { position: fixed; top: 20px; right: 20px; z-index: 10; }
+#login-button a { color: rgba(255,255,255,0.7); text-decoration: none; }
+@media (max-width: 600px) { h1.heading { font-size: 2rem; } .rocket { font-size: 4rem; } .content-wrapper { padding: 40px 20px; } p.content { font-size: 1rem; } }
+
+/* Social icons - unicode symbols */
+.mmf-social-icon {
+    font-size: 2em;
+    display: inline-block;
+    width: 1.2em;
+    text-align: center;
+}
+.social-icons .mmf-social-icon,
+#social-icons .mmf-social-icon {
+    font-size: 2em;
+}
