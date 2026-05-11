@@ -38,6 +38,13 @@ All maintenance mode features are included. No premium upsells, no locked featur
 3. Go to **Settings > Maintenance Mode** to configure.
 4. Enable maintenance mode from the admin bar or settings page.
 
+== Screenshots ==
+
+1. Gradient Mesh theme — modern gradient design with a clean, professional look
+2. Cosmos theme — space-inspired dark theme with floating particles
+3. Construction theme — industrial style perfect for sites under heavy development
+4. Rocket Launch theme — dynamic rocket animation for sites launching soon
+
 == Frequently Asked Questions ==
 
 = Does this plugin slow down my site? =

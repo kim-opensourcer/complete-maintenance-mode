@@ -2,6 +2,34 @@
 
 A complete maintenance and under construction mode plugin for WordPress with full customization. All features included right out of the box.
 
+![Gradient Mesh Theme](1-Gradient-Mesh.png)
+
+## Screenshots
+
+### 1. Gradient Mesh Theme
+
+![Gradient Mesh](1-Gradient-Mesh.png)
+
+Modern gradient mesh design with a clean, professional look.
+
+### 2. Cosmos Theme
+
+![Cosmos](2-Cosmos.png)
+
+Space-inspired dark theme with floating particles and a cosmic feel.
+
+### 3. Construction Theme
+
+![Construction](3-Construction.png)
+
+Industrial construction theme perfect for sites under heavy development.
+
+### 4. Rocket Launch Theme
+
+![Rocket Launch](4-Rocket-Launch.png)
+
+Dynamic rocket animation theme for sites launching soon.
+
 ## Features
 
 - **10 Built-in Themes** — Gradient Mesh, Cosmos, Zen, Emerald, Neon Glow, Light, Construction, Rocket, Dark Minimal, Clock Timer
